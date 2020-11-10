@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.row{
+	height: 75vh;
+	width: 100%;
+	display: inline-flex;
+}
+.col-lg-6{
+	height: 75vh;
+	width: 50%;
+}
+.main li{
+	display: inline-flex;
+	list-style: none;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.main a{
+	text-decoration: none;
+	color: #000080;
+	font-weight: bold;
+}
+h1{
+	font-style: italic;
+	color: #000080;
+	margin-left: 80px;
+	margin-top: 10px;
+	font-size: 70px;
+}
+h1 span{
+	color: #26D701;
+}
+h2{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 50px;
+	color: brown;
+}
+p{
+	margin-left: 280px;
+	margin-top: 10px;
+	color: #000080;
+}
+.foot{
+	border: 1px solid #26D701;
+	height: 19vh;
+	width: 50%;
+	background: #26D701;
+	margin-left: 370px;
+}
+.long img{
+	width: 60%;
+	height: 50vh;
+	margin-left: 100px;
+	margin-top: 35px;
+}
+h4{
+	margin-left: 10px;
+	color: #fff;
+	margin-top: 10px;
+}
+h5{
+	color: gray;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+#row{
+	height: 30px;
+	width: 100%;
+	background: lightblue;
+}
+.col-md-3{
+	height: 30px;
+	width: 15%;
+}
+h3{
+	padding-top: 3px;
+	color: #fff;
+}
+.bar li{
+	list-style: none;
+	margin-top: 3px;
+}
+.bar a{
+	text-decoration: none;
+	color: blue;
+}
+.bar input{
+	width: 50%;
+}
+.bar button{
+	background: #26D701;
+}
+h6{
+	margin-left:20px;
+	padding-top: 15px;
+	color: blue;
+}
+#row1{
+	height: 20vh;
+	width: 100%;
+	display: inline-flex;
+	background: #000080;
+}
+.col-md-6{
+	height: 20vh;
+	width: 50%;
+}
+.para{
+	color: #fff;
+	padding-top: 10px;
+}
+.para1{
+	text-align: center;
+	padding-top: 10px;
+	color: #fff;
+}
+
+
+
+
+@media(max-width: 700px){
+.row{
+	height: 120vh;
+}
+.col-lg-6{
+	height: 120vh;
+}	
+.main li{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+h1{
+	margin-left: 5px;
+	font-size: 30px;
+}	
+h2{
+	font-size: 25px;
+}
+p{
+	margin-left: 35px;
+}
+.foot{
+	width: 80%;
+	margin-left: 40px;
+}
+.long img{
+	width: 80%;
+	margin-left: 40px;
+}
+#row{
+	height: 60px;
+	background: lightblue;
+}
+.col-md-3{
+	height: 60px;
+	width: 25%;
+}
+h3{
+	padding-top: 3px;
+	color: #fff;
+}
+.bar li{
+	list-style: none;
+	margin-top: 3px;
+}
+.bar a{
+	text-decoration: none;
+	color: blue;
+}
+.bar input{
+	width: 50%;
+}
+.bar button{
+	background: #26D701;
+}
+}

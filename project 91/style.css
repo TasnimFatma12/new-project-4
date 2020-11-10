@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.head{
+	height: 100px;
+	width: 100%;
+	background: #4C0121;
+}
+h2{
+	margin-left: 10px;
+	padding-top: 10px;
+	font-size: 60px;
+}
+h3{
+	margin-left: 15px;
+	font-style: 30px;
+	letter-spacing: 25px;
+	color: #fff;
+}
+.row{
+	height: 70vh;
+	width: 100%;
+	display: inline-flex;
+	background: #67032F;
+}
+.col-lg-6{
+	height: 70vh;
+	width: 20%;
+}
+.nav li{
+	list-style: none;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.nav a{
+	text-decoration: none;
+	color: #fff;
+}
+#name{
+	height: 70vh;
+	width: 80%;
+}
+h1{
+	text-align: center;
+	font-size: 150px;
+	color: #fff;
+	padding-top: 150px;
+}
+h1 span{
+	font-size: 40px;
+}
+h4{
+	margin-left: 800px;
+	color: #fff;
+}
+#row{
+	height: 15vh;
+	width: 100%;
+	background: black;
+}
+.col-md-3{
+	height: 15vh;
+	width: 25%;
+}
+h5{
+	font-size: 20px;
+	margin-left: 30px;
+	padding-top: 40px;
+	color: #fff;
+}
+h6{
+	font-size: 20px;
+	margin-left: 30px;
+	color: #fff;
+}
+img{
+	height: 10vh;
+	width: 20%;
+}
+
+
+
+
+
+@media(max-width: 700px){
+h1{
+	font-size: 70px;
+}
+h4{
+	margin-left: 250px;
+}
+#row{
+	height: 25vh;
+	background: black;
+}
+.col-md-3{
+	height: 25vh;
+}
+img{
+	width: 70%;
+}	
+}

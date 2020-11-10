@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.row{
+	height: 80vh;
+	width: 100%;
+	display: inline-flex;
+	background: #ffd8b1;
+	border-bottom: 2px dashed red;
+}
+.col-lg-6{
+	height: 80vh;
+	width: 70%;
+}
+h1{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 40px;
+}
+h1 sup{
+	border: 1px solid black;
+	border-radius: 50%;
+	font-size: 7px;
+}
+h2{
+	margin-left: 100px;
+	margin-top: 20px;
+	color: #FFD700;
+}
+h3{
+	margin-top: 60px;
+	margin-left: 100px;
+	color: red;
+}
+h3 span{
+	font-weight: lighter;
+}
+.para{
+	margin-left: 100px;
+	margin-top: 20px;
+}
+p{
+	margin-top: 30px;
+	margin-left: 100px;
+}
+h4{
+	margin-left: 100px;
+	margin-top: 15px;
+}
+#head{
+	height: 80vh;
+	width: 30%;
+}
+.nav li{
+	border: 3px dashed brown;
+	list-style: none;
+	margin-left: 40px;
+	margin-top: 10px;
+	width: 40%;
+}
+.nav a{
+	text-decoration: none;
+	color: brown;
+}
+.foot{
+	border: 1px solid brown;
+	height: 27vh;
+	width: 50%;
+	margin-top: 60px;
+}
+.para1{
+	margin-top: 5px;
+	text-align: center;
+	color: blue;
+}
+h5{
+	color: brown;
+	text-align: center;
+}
+h6{
+	font-size: 19px;
+	color: brown;
+	text-align: center;
+}
+#row{
+	height: 20vh;
+	width: 100%;
+	display: inline-flex;
+	border: none;
+}
+.col-md-3{
+	height: 20vh;
+	width: 25%;
+}
+ul i{
+	margin-top: 40px;
+	margin-left: 170px;
+}
+.para2{
+	text-align: center;
+	margin-top: 5px;
+	color: red;
+}
+#large{
+	height: 20vh;
+	width: 25%;
+}
+#long{
+	height: 20vh;
+	width: 25%;
+}
+#footer{
+	height: 20vh;
+	width: 25%;
+}
+.header li{
+	margin-top: 20px;
+	border: 1px solid red;
+	list-style: none;
+	margin-left: 20px;
+	width: 40%;
+}
+.header a{
+	text-decoration: none;
+	color: red;
+}
+
+
+
+
+@media(max-width: 700px){
+.row{
+	height: 110vh;
+	background: #ffd8b1;
+}
+.col-lg-6{
+	height: 80vh;
+	width: 70%;
+}
+h2{
+	margin-left: 30px;
+}
+h3{
+	margin-left: 30px;
+}
+.para{
+	margin-left: 30px;
+}
+p{
+	margin-left: 30px;
+}
+h4{
+	margin-left: 30px;
+}	
+.nav li{
+	margin-left: 20px;
+	width: 55%;
+}
+.foot{
+	height: 32vh;
+	width: 80%;
+	margin-left: 20px;
+}
+ul i{
+	margin-left: 40px;
+}
+.header li{
+	width: 80%;
+}
+}

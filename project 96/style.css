@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.bar{
+	height: 30vh;
+	width: 50%;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	margin-left: 10px;
+}
+h4{
+	float: right;
+	margin-right: 60px;
+	padding-top: 10px;
+}
+h4 span{
+	color: red;
+}
+h4 u{
+	color: gold;
+}
+h1{
+	margin-left: 80px;
+	padding-top: 20px;
+	font-family: sans-serif;
+	font-style: italic;
+}
+p{
+	margin-top: 20px;
+	text-align: center;
+}
+.line{
+	width: 80%;
+	margin-top: 5px;
+	margin-left: 80px;
+}
+.row{
+	height: 69vh;
+	width: 50%;
+	display: inline-flex;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	margin-left: 10px;
+}
+.col-lg-6{
+	height: 69vh;
+	width: 50%;
+}
+h3{
+	padding-top: 20px;
+	margin-left: 50px;
+}
+.top img{
+	height: 15vh;
+	width: 40%;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.top li{
+	margin-left: 60px;
+}
+.top a{
+	color: orange;
+}
+h6{
+	margin-left: 60px;
+	color: orange;
+	margin-top: 20px;
+}
+.para{
+	margin-left: 40px;
+	padding-top: 40px;
+}
+.foot li{
+	margin-left: 50px;
+}
+.foot a{
+    color: orange;
+}
+.foot img{
+	height: 15vh;
+	width: 40%;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+
+
+
+
+@media(max-width: 700px){
+.bar{
+	height: 50vh;
+}
+.line{
+	margin-left: 15px;
+}
+.row{
+	height: 72vh;
+	margin-bottom: 6px;
+}
+.col-lg-6{
+	height: 72vh;
+}
+h3{
+	margin-left: 10px;
+}
+.top img{
+	width: 80%;
+	margin-left: 10px;
+}
+.top li{
+	list-style: none;
+	margin-left: 10px;
+}
+h6{
+	margin-left: 20px;
+}
+.para{
+	margin-left: 20px;
+}
+.foot li{
+	margin-left: 25px;
+	list-style: none;
+}
+.foot img{
+	width: 80%;
+	margin-left: 10px;
+}	
+}
+
+
+
+
+
+/*.long{
+	height: 99vh;
+	width: 50%;
+	border: 1px solid black;
+}
+.line1{
+	width: 80%;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+.para1{
+	text-align: center;
+}
+.long img{
+	margin-left: 130px;
+	height: 45vh;
+	width: 70%;
+	margin-top: 30px;
+	border: 2px solid gray;
+}
+.para2{
+	color: orange;
+	text-align: center;
+	margin-top: 20px;
+}
+.para3{
+	color: orange;
+	text-align: center;
+}
+.para3 span{
+	color: black;
+}*/
